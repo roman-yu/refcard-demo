@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/hello")
 public class HelloController {
 
-    private static final String RESPONSE_STRING_FORMAT = "Hello from '%s': %d\n";
+    private static final String RESPONSE_STRING_FORMAT = "Version 2 - Hello from '%s': %d\n";
 
     /**
      * Counter to help us see the lifecycle

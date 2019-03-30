@@ -1,5 +1,5 @@
 # Our base image that contains OpenJDK
-FROM openjdk
+FROM openjdk:8
 
 # Add the fatjar in the image
 COPY target/demo-0.0.1-SNAPSHOT.jar /
